@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WebsiteTools - One workspace for website checks</title>
+<meta name="description" content="Screenshots, performance, SEO, rank tracking, submissions and uptime monitoring in one place. Paste a URL, run a check instantly, then create an account to save monitors and track trends.">
+<meta property="og:title" content="WebsiteTools - One workspace for website checks">
+<meta property="og:description" content="Screenshots, performance, SEO, rank tracking, submissions and uptime monitoring in one place. Paste a URL, run a check instantly, then create an account to save monitors and track trends.">
+<meta property="og:image" content="https://asansanwal.github.io/websitetools.io/assets/hero.jpg">
+<meta property="og:url" content="https://websitetools.io">
+<link rel="icon" href="assets/logo.svg">
+<link rel="canonical" href="https://asansanwal.github.io/websitetools.io/">
+<style>
+:root { --accent: #2563eb; --bg: #f6f7fb; --card: #ffffff; --fg: #141824; --muted: #5b6474; --line: #e3e6ee; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0b0d12; --card: #151923; --fg: #e8ecf3; --muted: #9aa3b5; --line: #242a38; } }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif; background: var(--bg); color: var(--fg); line-height: 1.55; }
+a { color: var(--accent); text-decoration: none; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+header { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--fg); font-weight: 700; font-size: 1.15rem; }
+.brand img { width: 36px; height: 36px; border-radius: 9px; }
+.brand small { color: var(--muted); font-weight: 400; margin-left: 6px; }
+.btn { display: inline-block; background: var(--accent); color: #fff; padding: 12px 22px; border-radius: 10px; font-weight: 600; box-shadow: 0 6px 18px rgba(0,0,0,.15); }
+.btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); box-shadow: none; }
+.hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 40px; align-items: center; padding: 56px 0 32px; }
+.hero h1 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; margin: 0 0 14px; }
+.hero p.lead { font-size: 1.15rem; color: var(--muted); margin: 0 0 26px; }
+.hero .cta { display: flex; gap: 12px; flex-wrap: wrap; }
+.shot { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px; box-shadow: 0 20px 50px rgba(0,0,0,.18); }
+.shot img { width: 100%; height: auto; border-radius: 8px; display: block; }
+.facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 24px 0 8px; }
+.fact { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; text-align: center; }
+.fact b { display: block; font-size: 1.5rem; color: var(--accent); }
+.fact span { color: var(--muted); font-size: .9rem; }
+section { padding: 34px 0; }
+h2 { font-size: 1.5rem; margin: 0 0 18px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.feat { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+.feat h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.feat p { margin: 0; color: var(--muted); font-size: .95rem; }
+.shots { display: grid; grid-template-columns: 2.6fr 1fr; gap: 18px; align-items: start; }
+.shots figure, .gal figure { margin: 0; }
+figcaption { color: var(--muted); font-size: .85rem; margin-top: 8px; text-align: center; }
+.gal { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.gal img { width: 100%; border-radius: 10px; border: 1px solid var(--line); }
+.family { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.sib { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; color: var(--fg); font-size: .92rem; }
+.sib img { width: 22px; height: 22px; border-radius: 6px; }
+footer { border-top: 1px solid var(--line); padding: 26px 0 40px; color: var(--muted); font-size: .9rem; }
+footer a { color: var(--fg); }
+@media (max-width: 860px) { .hero, .shots { grid-template-columns: 1fr; } .facts, .grid, .gal { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .facts, .grid, .gal { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="https://websitetools.io"><img src="assets/logo.svg" alt="WebsiteTools logo">WebsiteTools<small>websitetools.io</small></a>
+  <a class="btn" href="https://websitetools.io">Open websitetools.io</a>
+</header>
+<div class="hero">
+  <div>
+    <h1>One workspace for website checks</h1>
+    <p class="lead">Screenshots, performance, SEO, rank tracking, submissions and uptime monitoring in one place. Paste a URL, run a check instantly, then create an account to save monitors and track trends.</p>
+    <div class="cta"><a class="btn" href="https://websitetools.io">Visit websitetools.io</a><a class="btn ghost" href="https://github.com/asansanwal/websitetools.io">Project on GitHub</a></div>
+  </div>
+  <a class="shot" href="https://websitetools.io"><img src="assets/hero.jpg" alt="WebsiteTools website"></a>
+</div>
+<div class="facts"><div class="fact"><b>Geo</b><span>screenshots</span></div><div class="fact"><b>Lighthouse</b><span>performance</span></div><div class="fact"><b>SEO</b><span>audits</span></div><div class="fact"><b>Uptime</b><span>monitoring</span></div></div>
+<section><h2>What WebsiteTools does</h2><div class="grid"><div class="feat"><h3>Geo screenshots</h3><p>Desktop and mobile captures across regions.</p></div><div class="feat"><h3>Performance test</h3><p>Core metrics, waterfall and bottlenecks, Lighthouse included.</p></div><div class="feat"><h3>SEO audit</h3><p>Titles, canonicals, links, schema and robots.</p></div><div class="feat"><h3>Rank checker</h3><p>Keyword positions by market and device; keywords, authority and backlinks.</p></div><div class="feat"><h3>Site submitter</h3><p>Sitemaps, IndexNow and submission history.</p></div><div class="feat"><h3>Monitors</h3><p>Checks run on your configured intervals with a status dashboard.</p></div></div></section>
+<section><h2>Screens</h2><div class="shots">
+  <figure><a href="https://websitetools.io"><img class="shot" style="padding:0" src="assets/full.jpg" alt="Full page of websitetools.io" loading="lazy"></a><figcaption>websitetools.io on desktop (full page)</figcaption></figure>
+  <figure><a href="https://websitetools.io"><img class="shot" style="padding:0" src="assets/mobile.jpg" alt="websitetools.io on a phone" loading="lazy"></a><figcaption>on a phone</figcaption></figure>
+</div></section>
+<section><h2>More projects</h2><div class="family"><a class="sib" href="https://asansanwal.github.io/quickpod.io/"><img src="https://asansanwal.github.io/quickpod.io/assets/logo.svg" alt=""><span>QuickPod</span></a><a class="sib" href="https://asansanwal.github.io/quickopen.ai/"><img src="https://asansanwal.github.io/quickopen.ai/assets/logo.svg" alt=""><span>QuickOpen</span></a><a class="sib" href="https://asansanwal.github.io/quickos/"><img src="https://asansanwal.github.io/quickos/assets/logo.svg" alt=""><span>Quick OS</span></a><a class="sib" href="https://asansanwal.github.io/commonscreens.com/"><img src="https://asansanwal.github.io/commonscreens.com/assets/logo.svg" alt=""><span>Common Screens</span></a><a class="sib" href="https://asansanwal.github.io/apiquick.io/"><img src="https://asansanwal.github.io/apiquick.io/assets/logo.svg" alt=""><span>APIQuick</span></a><a class="sib" href="https://asansanwal.github.io/aiquick.io/"><img src="https://asansanwal.github.io/aiquick.io/assets/logo.svg" alt=""><span>AIQuick</span></a><a class="sib" href="https://asansanwal.github.io/quickaihub.io/"><img src="https://asansanwal.github.io/quickaihub.io/assets/logo.svg" alt=""><span>QuickAIHub</span></a><a class="sib" href="https://asansanwal.github.io/quickdigital.io/"><img src="https://asansanwal.github.io/quickdigital.io/assets/logo.svg" alt=""><span>QuickDigital</span></a><a class="sib" href="https://asansanwal.github.io/vansha.com/"><img src="https://asansanwal.github.io/vansha.com/assets/logo.svg" alt=""><span>Vansha</span></a></div></section>
+<footer>WebsiteTools is a product of <a href="https://github.com/asansanwal">asansanwal</a>. This page is a project page; the live site is <a href="https://websitetools.io">websitetools.io</a>. Screenshots captured from the live site.</footer>
+</div>
+</body>
+</html>
